@@ -1,0 +1,136 @@
+﻿body{
+	background-image:url("http://spartakode.com/resources/images/pw_maze_white.png");
+	color:#154154;
+	width:100%;
+	margin:0;
+	line-height:1.9em;
+}
+
+
+body, div{
+	font-family:"Open Sans", "Segoe UI", "Lucida Grande", Tahoma, Geneva, Verdana, sans-serif;
+	font-size:14px;		
+	background-color:#EDEDED
+	/*background-color:#61B7CF;*/
+}
+
+div.nav{
+	float:right;
+	display:block;
+	width:100%;	
+	border-color:#339ED4;
+	border-style:solid;
+}
+
+div.nav-top{	
+	border-width:0 0 2px 0;
+	padding-top:45px;
+	padding-bottom:10px;
+}
+
+div.nav-bottom{
+	
+	border-width:2px 0 0 0;	
+}
+
+div.post{
+	background-color:inherit;
+	/*border-bottom: 1px #2a2a2a solid;*/
+	padding-bottom:15px;
+	margin-bottom:30px;
+}
+div.post h1 a{
+	
+	color:#730000;
+}
+ul.nav-links{
+	float:right;
+	list-style:none;	
+	margin-right:60px;
+}
+
+li.nav-links a{	 
+	margin:2px 30px 0 0;
+	font-size:14px;			
+}
+
+li.nav-top{
+	display:inline;
+}
+
+li.nav-top a{
+	font-size:18px;
+}
+
+a{
+	color:#FF6440;
+	/*color:#BF7830;*/
+	text-decoration:none;
+}
+a:hover{	
+	text-decoration:underline;
+}
+
+a:visited{
+	color:#A61D00;	
+}
+
+p.post-time{
+	font-size:12px;
+}
+
+p.post-time a{
+	font-size:inherit;
+}
+
+div.content{	
+	display:block; 
+	background-color:white;
+	clear:both; 
+	margin:0 auto;	
+	text-align:left;
+	padding-bottom:15px;
+	padding-top:10px;
+	width:50%;
+
+	/*border-width:0 2px;
+	border-color:#339ED4;
+	border-style:solid;*/
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'PT Sans Narrow', Georgia, serif;
+	font-weight:700;
+	font-style:normal;
+	font-size:20px;
+	line-height:1.3em;
+}
+
+h1{
+	font-size:32px;
+}
+
+h2{
+	font-size:28px;
+}
+
+h3{
+	font-size:24px;
+}
+
+h1.main-header{
+	float:left; 
+	margin:0 0 20px 25%; 
+	font-size:50px;
+
+}
+
+article{
+	background-color:white;
+	width:100%;
+}
+
+p{	
+	margin-bottom:4px;
+	
+}
